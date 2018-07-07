@@ -1,0 +1,136 @@
+.user{
+    width: 100%;
+    /* height: 1000px; */
+    /* background-color: #ccc; */
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+}
+/* ---- 顶部 */
+.header {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    max-width: 640px;
+    min-width: 320px;
+    background-color: #0099ff;
+    position: fixed;
+    z-index: 999;
+}
+.header h3 {
+    line-height: 42px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+/* banner */
+.banner{
+    width: 100%;
+    margin-top: 42px;
+    position: relative;
+}
+.bannerImg{
+    width: 100%;
+    display: block;
+}
+.banner .login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 28%;
+    height: 50%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    
+}
+.login span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+   
+}
+.login p{
+    position: absolute;
+    left: 50%;
+    top: 136%;
+    transform: translate(-50%,-50%);
+}
+.banner .click  {
+    color: #fff;
+    position: absolute;
+    letter-spacing: 2px;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+/* 关于我们 */
+.us {
+    width: 100%;
+    background-color: #fff;
+  
+   
+}
+.us li {
+    width: 100%;
+    padding: 3% 0 3% 5%;
+    position: relative;
+}
+.us li i{
+    font-size: 24px;
+    
+    color: #7be0fa;
+    /* position: absolute;
+    left:0%;
+    top:0%; */
+    
+}
+.us li p {
+    font-size: 16px;
+    position: absolute;
+    left:16%;
+    top: 32%;
+
+}
+.us li span {
+    font-size: 24px;
+    color: #d9d9d9;
+    position: absolute;
+    right:3% ;
+    top: 18%;
+}
+.us li .set{
+    color: #da7ce2;
+}
+.b-bottom{
+    border-bottom: 1px solid #e6e6e6;
+}
+/* 底部 -------- */
+.foot{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    max-width: 640px;
+    min-width: 320px;
+   
+}
+.foot li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 5px 0;
+}
+.foot span {
+    font-size: 20px;
+}
+.active {
+    color: #7be0fa;
+}

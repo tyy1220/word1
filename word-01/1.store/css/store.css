@@ -1,0 +1,164 @@
+.store{
+    width: 100%;
+    background-color: #ccc;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #ff0000;
+    max-width: 640px;
+    min-width: 320px;
+    position: fixed;
+    z-index: 999;
+}
+.header>a{
+    position: absolute;
+    left: 14px;
+    top: 4px;
+    color: #fff;
+    font-size: 30px;
+    
+}
+.header>h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 24px;
+}
+/* banner */
+.banner{
+    width: 100%;
+    position: relative;
+}
+.baiyi>img{
+    width: 100%;
+    display: block;
+}
+.baiyi .logo {
+    width: 24%;
+    position: absolute;
+    left: 7%;
+    top:28%;
+}
+.baiyi>h3{
+    color: #fff;
+    position: absolute;
+    left: 33%;
+    top: 31%;
+}
+.baiyi .link {
+    width: 50%;
+    display: block;
+    position: absolute;
+    left: 33%;
+    top:56%;
+}
+.baiyi .link img {
+    width: 15%;
+    background-color: #ff0000;
+    
+}
+.baiyi .link>span{
+    position: absolute;
+   right: -28%;
+   top: -73%;
+   color: #fff;
+   font-size: 30px;
+}
+.mask{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, .3);
+}
+.mask>ul>li{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 5px 0;
+}
+.mask>ul>li::before{
+    content: "";
+    width: 2px;
+    height: 30px;
+    background-color: #9db2ba;
+    position: absolute;
+    left: 33%;
+    top: 22%;
+}
+.mask .last::before{
+    content: "";
+    width: 2px;
+    height: 30px;
+    background-color: #9db2ba;
+    position: absolute;
+    left: 66%;
+    top: 22%;
+}
+.mask>ul>li>a{
+    color: #fff;
+}
+/* ---- 产品展示 */
+.product{
+    width: 100%;
+    background-color: #fff;
+ 
+    
+}
+.product>ul>li{
+    width: 33%;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+.product ul img{
+    width: 50%;
+}
+.b_bottom{
+    border-bottom: 1px solid #f3f3f3;
+}
+.b_right{
+    border-right: 1px solid #f3f3f3;
+}
+/* 百益同城广告 */
+.poster {
+    width: 100%;
+    margin-top: 5px;
+}
+.poster li img{
+    width: 100%;
+    display: block;
+}
+/* 底部  */
+.footer{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background: #fff;
+    max-width: 640px;
+    min-width: 320px;
+}
+.footer li {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.footer li a{
+    display: block;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.footer li p{
+    font-size: 14px;
+}
+.active{
+    color: #ff0000;
+}

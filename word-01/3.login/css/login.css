@@ -1,0 +1,82 @@
+.total{
+    width: 100%;
+    height: 1000px;
+    background-color: #eee;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    max-width: 640px;
+    min-width: 320px;
+    background-color: #fff;
+    position: fixed;
+ 
+}
+.header>a {
+    font-weight: 700;
+    position: absolute;
+    left: 3%;
+    top: 22%;
+    color: #191919;
+    font-size: 16px;
+   
+}
+.header>a>span {
+    font-size: 20px;
+    color: #161426;
+}
+.header>h3 {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #191919;
+}
+/* 表单验证 */
+.form{
+    width: 100%;
+    margin-top: 45px;
+    background-color: #fff;
+ 
+}
+.form ul {
+    background-color: #fff;
+}
+.form li {
+    width: 100%;
+    float: left;
+    padding: 20px 20px;
+    position: relative;
+}
+.form p {
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.form .btn {
+    background-color: #fff;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+    padding: 10px 0;
+    text-align: center;
+}
+ .sub {
+    display: block;
+    width: 100%;
+    background-color: hsl(44, 100%, 64%);
+    margin-top:10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.b_bottom{
+    border-bottom:1px solid #f0f0f0;
+}
+.b_top{
+    border-top:1px solid #f0f0f0;
+}
